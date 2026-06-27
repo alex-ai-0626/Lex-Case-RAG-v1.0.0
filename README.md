@@ -24,8 +24,6 @@
 law_front (Vue 3) → law_backend_flask (Flask) → SQLite + 本地文件存储 → 知识检索 → LLM
 ```
 
-不强制依赖 MinIO、MySQL 或独立 FastAPI RAG 服务，适合本地开发与快速部署。
-
 ## 技术栈
 
 ### 前端
@@ -329,5 +327,7 @@ curl http://127.0.0.1:11434/v1/models
 
 模型不可用时，知识库检索模式仍会尝试返回资料片段摘要。
 
+### 致谢
 
+感谢github开源项目[LawBrain]及其他法律RAG项目。
 
