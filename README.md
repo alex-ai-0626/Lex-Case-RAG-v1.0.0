@@ -18,11 +18,6 @@
 | **AI**   | 接入 Ollama / OpenAI-compatible 大语言模型 |
 | **RAG**  | 本地文档切片、关键词检索与联网搜索增强 |
 
-默认运行链路：
-
-```text
-law_front (Vue 3) → law_backend_flask (Flask) → SQLite + 本地文件存储 → 知识检索 → LLM
-```
 
 ## 技术栈
 
@@ -127,7 +122,7 @@ law_front (Vue 3) → law_backend_flask (Flask) → SQLite + 本地文件存储 
 
 <p align="center">
   <img src="./picture/upload.png" alt="upload" width="85%">
-</p>[README.md](README.md)
+</p>
 
 <p align="center">
   <img src="./picture/案件管理.png" alt="案件文档管理" width="85%">
